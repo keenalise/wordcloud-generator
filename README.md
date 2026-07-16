@@ -103,7 +103,7 @@ This happens if the script file is named the same as a Python standard library m
 ```
 keywords/
 ├── venv/                        # virtual environment (not tracked)
-├── manoj sir.odt                # example source document
+├── anydocument.odt                # example source document
 ├── wordcloud_generator.py       # main script
 ├── keyword_wordcloud.png        # generated output (after running)
 └── README.md                    # this file
