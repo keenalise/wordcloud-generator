@@ -177,14 +177,4 @@ def generate_word_cloud(keyword_dict):
     plt.show()
 
 
-if __name__ == '__main__':
-    raw_text = extract_and_preprocess(document_path)
-    keyword_frequencies = extract_keywords(raw_text)
-
-    if keyword_frequencies:
-        generate_word_cloud(keyword_frequencies)
-        print("Success!")
-    else:
-        print("No keywords could be extracted. Check document.")
-
 
